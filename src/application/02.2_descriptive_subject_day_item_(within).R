@@ -42,6 +42,6 @@ within_centered <- daily_means %>%
 
 # 4. create within dfs for efa and cfae daily average - weekly averages
 within_centered_df <- within_centered %>%
-  select(Name, day, Item, Centered) %>%
+  dplyr::select(Name, day, Item, Centered) %>%
   pivot_wider(names_from = Item, values_from = Centered)
 
