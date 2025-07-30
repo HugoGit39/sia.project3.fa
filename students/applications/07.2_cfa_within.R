@@ -30,9 +30,6 @@ cfa_model_within_adj <- '
     Relaxed ~~ Down
     Stressed ~~ Down
 
-  level: 2
-    PositiveAffect =~ Happy + Relaxed + Energetic + Content
-    NegativeAffect =~ Stressed + Anxious + Irritated + Down
 '
 
 fit_within_adj <- sem(
