@@ -1,4 +1,4 @@
-# 📊 Multilevel Exploratory Factor Analysis (EFA) on ESM Data from the Netherlands Twin Register (NTR)
+# Multilevel Exploratory Factor Analysis (EFA) on ESM Data from the Netherlands Twin Register (NTR)
 
 This repository contains an R-based workflow to perform **Multilevel Exploratory Factor Analysis (EFA)** on Experience Sampling Method (ESM) data collected by the [Netherlands Twin Register (NTR)](https://tweelingenregister.vu.nl/).
 
@@ -6,7 +6,7 @@ The goal is to uncover latent affective structures both **between individuals** 
 
 ---
 
-## 🧠 Project Goals
+## Project Goals
 
 - **Between-Person Analysis**  
   Identify stable individual differences by averaging item responses per person. This analysis reveals how people differ from each other in general affective tendencies.
@@ -19,7 +19,7 @@ The goal is to uncover latent affective structures both **between individuals** 
 
 ---
 
-## 🛠️ Method Overview
+## Method Overview
 
 ### 1. Data Preparation
 - Import raw ESM CSV data
@@ -50,7 +50,7 @@ The goal is to uncover latent affective structures both **between individuals** 
 
 ---
 
-## 📁 Data Source
+## Data Source
 
 This workflow was inspired by data collected in the [Netherlands Twin Register (NTR)](https://tweelingenregister.vu.nl/), which maintains a large-scale database of twins and their relatives.
 
@@ -58,7 +58,7 @@ This workflow was inspired by data collected in the [Netherlands Twin Register (
 
 ---
 
-## 📦 R Package Dependencies
+## R Package Dependencies
 
 Make sure the following R packages are installed:
 
